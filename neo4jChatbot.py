@@ -48,7 +48,7 @@ llm = AzureChatOpenAI(
     deployment_name="gpt-4o", 
     openai_api_version=openai_api_version, 
     openai_api_key=openai_api_key, 
-    openai_api_base="https://openai.azure.com/"
+    openai_api_base=openai_api_base
 )
 
 # Prompt template for Cypher query generation
